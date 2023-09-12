@@ -6,7 +6,7 @@ export function Button({ text }) {
 }
 
 Button.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string.isRequired
 }
 
 export default Button;
